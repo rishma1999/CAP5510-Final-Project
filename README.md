@@ -39,8 +39,8 @@ Higher bars indicate genes with stronger overall predictive value.
 
 **Figure: Top 40 Most Informative Genes**
 
-![Top 40 Ranked Genes](<img width="3570" height="1466" alt="top40_features (1)" src="https://github.com/user-attachments/assets/b0756e7b-377f-4921-aaa7-c1632f508194" />
-)
+<img width="3570" height="1466" alt="top40_features (1)" src="https://github.com/user-attachments/assets/74f07caa-9e51-4cf0-be92-ee847c6be6ee" />
+
 
 ## Why This Matters
 
