@@ -1,7 +1,5 @@
 # CAP5510-Final-Project
-## CAP5510 Final Project
-
-#### Title: Gene Expression-Based Classification of Leukemia Using Machine Learning and Neural Network Methods
+##  Gene Expression-Based Classification of Leukemia Using Machine Learning and Neural Network Methods
 
 ### Dataset and Preprocessing
 To identify the most informative genes for distinguishing **ALL** and **AML** leukemia samples, we performed a multi-step feature-ranking procedure combining three independent statistical metrics. This approach ensures that the selected genes are consistently important across variance-based, correlation-based, and class-separation criteria.
