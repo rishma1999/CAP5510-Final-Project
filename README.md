@@ -30,21 +30,20 @@ combined_rank = rank(ANOVA) + rank(Correlation) + rank(PCA Loading)
 
 Genes with the **lowest combined score** are considered the most informative.
 
-From this ranked list, we extract the **Top 40 genes**, which form the final reduced feature set used for training ML classifiers.
+From this ranked list, we extract the **Top 50, 100, 250 genes**, which form the final reduced feature set used for training ML classifiers.
 
 ## Visualization
 
-The bar chart below displays the combined importance score for the top 40 genes.
+The bar chart below displays the combined importance score for the top 50 genes.
 Higher bars indicate genes with stronger overall predictive value.
 
-**Figure: Top 40 Most Informative Genes**
+**Figure: Top 50 Most Informative Genes**
 
-<img width="3570" height="1466" alt="top40_features (1)" src="https://github.com/user-attachments/assets/74f07caa-9e51-4cf0-be92-ee847c6be6ee" />
-
+<img width="3570" height="1466" alt="top50_features" src="https://github.com/user-attachments/assets/ccc24d89-3233-4f92-92ef-2a7244cf68e0" />
 
 ## Why This Matters
 
-* Reduces dimensionality from thousands of genes → 40 key biomarkers
+* Reduces dimensionality from thousands of genes → 50, 100, 250 key biomarkers
 * Improves model performance and generalization
 * Removes noisy or redundant features
 * Ensures selected genes are supported by multiple statistical perspectives
