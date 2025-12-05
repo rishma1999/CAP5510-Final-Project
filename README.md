@@ -2,6 +2,8 @@
 ##  Gene Expression-Based Classification of Leukemia Using Machine Learning and Neural Network Methods
 
 ### Dataset and Preprocessing
+The dataset consists of microarray gene-expression profiles from 72 leukemia patients, split into 38 training samples and 34 independent test samples, labeled as either ALL (0) or AML (1). Each sample originally contains thousands of gene-expression measurements, along with metadata fields such as Gene Description, Gene Accession Number, and probe “call” values. During preprocessing, all non-expression metadata and “call” columns were removed, and the gene matrices were aligned and transposed so that each row represents a patient and each column represents a gene feature. After cleaning and feature ranking, the dataset was reduced to the top 40 most informative genes, which form the final feature set used for model training and evaluation.
+
 To identify the most informative genes for distinguishing **ALL** and **AML** leukemia samples, we performed a multi-step feature-ranking procedure combining three independent statistical metrics. This approach ensures that the selected genes are consistently important across variance-based, correlation-based, and class-separation criteria.
 
 ## Feature Ranking Metrics Used
