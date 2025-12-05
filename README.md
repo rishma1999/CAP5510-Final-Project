@@ -49,7 +49,8 @@ Higher bars indicate genes with stronger overall predictive value.
 * Removes noisy or redundant features
 * Ensures selected genes are supported by multiple statistical perspectives
 
-This feature-selection pipeline forms a critical step in building robust leukemia-classification models.
+**This feature-selection pipeline forms a critical step in building robust leukemia-classification models.**
+
 ---
 
 #### Team Members:
