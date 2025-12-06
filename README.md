@@ -26,7 +26,7 @@ Our goal is to examine how feature selection and dimensionality reduction techni
 
 We implement:
 
-- **Feature selection:** t-tests, ANOVA, correlation-based selection  
+- **Feature selection:** ANOVA, correlation-based selection  
 - **Dimensionality reduction:** PCA  
 - **Classical ML classifiers:** SVM, k-NN, Decision Trees  
 - **Neural models:** Multilayer Perceptron (MLP), Committee Neural Networks  
