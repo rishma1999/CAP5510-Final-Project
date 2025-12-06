@@ -7,7 +7,7 @@
 
 ## **Team Members**
 
-- **Priya Mitul (UFID: 98536535)**
+- **Priya Mittal (UFID: 98536535)**
 - **Sai Harshitha Baskar (UFID: 49831986)**
 - **Rishma Manna (UFID: 55360448)**
 - **Hari Nair Suresh Chandran (UFID: 24745989)**
