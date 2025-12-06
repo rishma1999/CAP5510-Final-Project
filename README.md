@@ -107,7 +107,6 @@ Higher bars indicate genes with stronger overall predictive value.
 
 | **Method** | **Purpose** |
 |-----------|-------------|
-| **t-tests** | Identify statistically discriminative genes |
 | **ANOVA** | Multi-class variance-based selection |
 | **Correlation-based** | Remove redundant genes |
 | **PCA** | Reduce dimensionality while preserving variance |
@@ -170,7 +169,7 @@ We analyze:
 
 | **Team Member** | **Responsibilities** |
 |-----------------|-----------------------|
-| **Priya** | Preprocessing, statistical feature selection (t-tests, ANOVA, PCA), dataset preparation |
+| **Priya** | Preprocessing, statistical feature selection (ANOVA, PCA, Pearson Correlation), dataset preparation |
 | **Harshitha** | Neural models (MLP, Committee NN), hyperparameter tuning |
 | **Rishma** | Classical ML models (SVM, k-NN, Decision Trees), performance comparisons |
 | **Hari** | Cross-validation, statistical testing, results visualization, documentation |
